@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr name="mtext" format="string"/>
+    <attr name="msize" format="dimension"/>
+    <attr name="mcolor" format="color"/>
+
+    <declare-styleable name="MyTextView">
+        <attr name="mtext"/>
+        <attr name="msize"/>
+        <attr name="mcolor"/>
+        <attr name="android:text"/>
+
+    </declare-styleable>
+
+    <declare-styleable name="ScaleView">
+        <attr name="longWidth"  format="dimension"/>
+        <attr name="shortWidth" format="dimension"/>
+        <attr name="scaleNum" format="integer"/>
+        <attr name="maxNum" format="integer"/>
+        <attr name="minNum" format="integer"/>
+
+    </declare-styleable>
+
+
+</resources>
